@@ -8,7 +8,7 @@ public class Debugging {
         int exam2Score = 90;
         int exam3Score = 95;
 
-        int total = 100;
+        double total = 100;
 
         double decimalScore1 = exam1Score / total; 
         double decimalScore2 = exam2Score / total; 
