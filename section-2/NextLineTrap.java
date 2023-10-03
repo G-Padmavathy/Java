@@ -13,6 +13,7 @@ public class NextLineTrap {
         System.out.println("Ages: You - " + yourAge +", Friend - " +friendAge +", Parent - " + parentAge);
 
         System.out.print("\nEnter a greeting: ");
+        scanner.nextLine();
         String greeting = scanner.nextLine();
 
         System.out.println("Greeting: " + greeting);
@@ -26,6 +27,7 @@ public class NextLineTrap {
         System.out.println("Prices: Book - " + bookPrice + ", Coffee - " + coffeePrice + ", Meal - " + mealPrice);
 
         System.out.print("\nEnter a restaurant name: ");
+        scanner.nextLine();
         String restaurant = scanner.nextLine();
 
         System.out.println("Restaurant: " + restaurant);
@@ -40,6 +42,7 @@ public class NextLineTrap {
         System.out.println("Populations: City 1 - " + city1Population + ", City 2 - " + city2Population + ", City 3 - " + city3Population + "\n");
 
         System.out.print("\nEnter the name of the most populous city: ");
+        scanner.nextLine();
         String cityName = scanner.nextLine();
 
         System.out.println("Most populous city: " + cityName);
