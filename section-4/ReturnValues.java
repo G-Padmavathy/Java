@@ -3,8 +3,8 @@ public class ReturnValues {
         double area = calculateAreaAndPrintIt(2, 4);// Aruguments
         double area1 = calculateAreaAndPrintIt(3.3, 3.2);
         double area2 = calculateAreaAndPrintIt(1.3, 2.5);
-        System.out.println("Area:" + area);
-        System.out.println("Area:" + area1);
+        printArea(2.3, 3.6, area);
+        printArea(3.3, 3.2, area1);
         System.out.println("Area:" + area2 + "\n");
 
         calculateAreaAndPrintIt(-5, 2.3);
@@ -50,5 +50,9 @@ public class ReturnValues {
     // French "La surface est egale a la longueur * la largeur"
 
     // Spanish "area es igual a largo * ancho"
+
+    public static void printArea(double length, double width, double area) {
+        System.out.println("A rectangle with a length of " + length + " and a width " + width + " has an area " + area);
+    }
 
 }
