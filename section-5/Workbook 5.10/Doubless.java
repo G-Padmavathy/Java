@@ -16,6 +16,7 @@ public class Doubless {
             System.out.println("Dice 2: " + dice2 + "\n");
 
         }
+        System.out.println("You rolled doubles!");
 
     }
 
