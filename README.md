@@ -4,4 +4,6 @@
 <h2>Section-3 Booleans and Condition</h2>
 <h2>Section-4 Function </h2>
 <h2>Section-5 Loops </h2>
+<h2>Section-6 Array </h2>
+
 
